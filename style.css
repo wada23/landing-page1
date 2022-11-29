@@ -1,9 +1,8 @@
 body { 
     background: linear-gradient(90deg, rgb(241, 174, 174), rgb(158, 158, 235), rgb(108, 245, 192)); 
-    margin: 20px; 
+    margin: 14px; 
     display: flex;
     flex-direction: row;
-
 }
 
 #left { 
@@ -11,7 +10,6 @@ body {
     width: 30%;
     height: 500px;
     flex-direction: row;
-    margin-top: 90px;
     font-size: 28px;
     font-weight: bolder;
 }
@@ -30,13 +28,7 @@ body {
     box-shadow: 0px 0px 60px rgb(222, 238, 243);
 }
 
-#right { 
-    display: flex;
-    width: 30%;
-    height: 500px;
-    flex-direction: row;
-    margin-top: 90px;
-}
+
 
 .click-here {
     height: 50px;
@@ -71,3 +63,44 @@ button {
 button:hover {
     background-color: #9530b4;
 }
+
+#right { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 30%;
+    margin-top: 90px;
+}
+
+.list {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: stratch;
+    align-content: stretch;
+    transform: rotate(90deg);
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 40px;
+    color: #000000;
+}
+
+.list:hover { 
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 12px;
+
+}
+
+#logo {
+    height: 50px;
+    width: 140px;
+    transform: rotate(90deg);
+}
+
+#logo:hover {
+    border-radius: 12px;
+    box-shadow: 0px 0px 60px #ffffff;
+}
+
