@@ -84,13 +84,17 @@ button:hover {
     font-weight: bold;
     padding-right: 40px;
     color: #000000;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    -ms-transition: color 1s ease-out;
+    transition: color 1s ease-out;
 }
 
 .list:hover { 
     color: #ffffff;
     background-color: #000000;
     border-radius: 12px;
-
 }
 
 #logo {
