@@ -50,9 +50,24 @@ a {
 }
 
 a:hover {
-    color: rgb(158, 158, 235);
+    color: #9530b4;
 }
 
 .small-text { 
     font-size: 18px;
+}
+
+button {
+    background-color: #000000;
+    color:#ffffff;
+    border-radius: 12px;
+    border-style: none;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9530b4;
 }
