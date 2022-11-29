@@ -77,7 +77,7 @@ button:hover {
     height: 50px;
     width: 120px;
     display: flex;
-    justify-content: stratch;
+    justify-content: stretch;
     align-content: stretch;
     transform: rotate(90deg);
     font-size: 25px;
