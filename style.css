@@ -1,3 +1,38 @@
-.gridstyle {
+.item-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    grid-area: header;
+    background-color: rebeccapurple;
+  }
+  .item-b {
+    grid-area: main;
+    background-color: brown;
+  }
+  .item-c {
+    grid-area: sidebar;
+    background-color: blue;
+  }
+  .item-d {
+    grid-area: footer;
+    background-color: aqua;
+  }
+
+  .item-e {
+    grid-area: content;
+    background-color: greenyellow;
+  }
+  
+  .container {
     display: grid;
-}
+    justify-content: stretch;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 400px 100% 40px;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "content content content content"
+      "footer footer footer footer";
+  }
