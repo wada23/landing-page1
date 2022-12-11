@@ -18,8 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 960px;
-    height: 100%;
+    width: 960px;
     background-color: #ffffff7e;
     border-radius: 40px;
     box-shadow: 0 0 10px #ffffff;
@@ -30,12 +29,13 @@ body {
   .item-c {
     grid-area: right-side-bar;
     font-size: 50px;
+    
   }
   
   
   .container {
     display: grid;
-    grid-template-columns: 250px 70% 250px;
+    grid-template-columns: 250px 1fr 250px;
     grid-template-rows: min-content 1fr;
     grid-template-areas: 
       "left-side-bar main right-side-bar";
@@ -61,5 +61,10 @@ body {
     border: none;
     color: #ffffff;
     background-color: #000000;
-  }
+  } 
+
+  button:hover {
+        background-color: #9530b4;
+    }
+
   
